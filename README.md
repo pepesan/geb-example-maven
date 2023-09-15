@@ -1,10 +1,14 @@
 # Example Geb and Maven Project
 
-[![Build Status][build_status]](https://circleci.com/gh/geb/geb-example-gradle/tree/master)
 
 ## Description
 
 This is a simple example project for using Geb with Maven. It is setup to use the Chrome driver.
+
+## Instalation
+
+Install the chromedriver from [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/)
+Decompress, and put the executable into the PATH
 
 ## Usage
 

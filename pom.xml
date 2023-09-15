@@ -9,7 +9,7 @@
   <url>http://gebish.org</url>
   <properties>
     <gebVersion>7.0</gebVersion>
-    <seleniumVersion>4.2.2</seleniumVersion>
+    <seleniumVersion>4.12.1</seleniumVersion>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
@@ -76,7 +76,7 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
+      <!--plugin>
       <groupId>com.github.webdriverextensions</groupId>
       <artifactId>webdriverextensions-maven-plugin</artifactId>
       <version>3.4.0</version>
@@ -106,7 +106,7 @@
           </driver>
         </drivers>
       </configuration>
-      </plugin>
+      </plugin-->
     </plugins>
   </build>
 </project>
