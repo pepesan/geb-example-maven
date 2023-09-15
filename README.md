@@ -13,8 +13,14 @@ Decompress, and put the executable into the PATH
 ## Usage
 
 Just check it out and run…
+```shell
+    mvn test
+```
+## Only One Test Usage
 
-    mvnw test
+```shell
+mvn test -Dtest=CursosDeDesarrolloSpec
+```
 
 ## Questions and issues
 
