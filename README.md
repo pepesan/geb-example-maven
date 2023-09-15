@@ -14,7 +14,7 @@ Decompress, and put the executable into the PATH
 
 Just check it out and run…
 ```shell
-    mvn test
+mvn test
 ```
 ## Only One Test Usage
 
