@@ -13,11 +13,11 @@ class CursosDeDesarrolloSpec extends GebSpec {
         // manualsMenu.links[0].text().startsWith("current")
 
         and:
-        manualsMenu.cookiesAcceptButton.click()
+        manualsMenu.cookiesAcceptButton[1].click()
         and:
-        searchInput.value("docker")
+        manualsMenu.searchInput.value("docker")
         and:
-        searchButton.click()
+        manualsMenu.searchButton.click()
         then:
         at CursosDeDesarrolloResultadosPage
     }

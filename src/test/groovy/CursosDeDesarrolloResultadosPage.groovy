@@ -2,5 +2,6 @@ import geb.Page
 
 class CursosDeDesarrolloResultadosPage extends Page {
 
-    static at = { title.startsWith("Resultados de la búsqueda de «docker»") }
+    static url = "https://cursosdedesarrollo.com/?s=docker"
+    static at = { title.contains("docker") }
 }
